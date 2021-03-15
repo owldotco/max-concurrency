@@ -1,0 +1,23 @@
+###################
+# .npmignore only #
+###################
+
+yarn.lock
+
+##############
+# .gitignore #
+##############
+
+coverage
+.idea
+
+src/*.js
+src/*.d.ts
+src/*.map
+
+test/*.js
+test/*.d.ts
+test/*.map
+
+node_modules
+*.tsbuildinfo

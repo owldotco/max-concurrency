@@ -1,0 +1,7 @@
+{
+  "arrowParens": "always",
+  "overrides": [{ "options": { "parser": "json" }, "files": [".prettierrc"] }],
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "useTabs": false
+}
