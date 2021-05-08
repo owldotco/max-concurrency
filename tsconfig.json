@@ -1,17 +1,18 @@
 {
+  "extends": "@tsconfig/node14",
   "compilerOptions": {
-    "target": "ES2018",
-    "module": "commonjs",
-     "declaration": true,
-     "declarationMap": true,
-     "sourceMap": true,
-     "isolatedModules": true,
-    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDecoratorMetadata": true,
     "esModuleInterop": true,
-     "experimentalDecorators": true,
-     "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "importsNotUsedAsValues": "error",
+    "isolatedModules": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "sourceMap": true,
+    "strict": true
   },
   "include": ["src", "test"]
 }
