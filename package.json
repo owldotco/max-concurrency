@@ -1,6 +1,6 @@
 {
   "name": "@owldotco/max-concurrency",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Limit concurrency of async functions via higher-order functions",
   "keywords": [
     "async",
