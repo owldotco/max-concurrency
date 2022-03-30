@@ -1,3 +1,17 @@
+###################
+# Yarn 2 (no PnP) #
+###################
+
+.yarn/*
+!.yarn/cache
+.yarn/cache/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
 coverage
 .idea
 

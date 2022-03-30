@@ -1,23 +1,8 @@
-###################
-# .npmignore only #
-###################
-
+.yarn
+.yarnrc.yml
 yarn.lock
-
-##############
-# .gitignore #
-##############
-
 coverage
 .idea
-
-src/*.js
-src/*.d.ts
-src/*.map
-
-test/*.js
-test/*.d.ts
-test/*.map
-
+test
 node_modules
-*.tsbuildinfo
+tsconfig.tsbuildinfo
